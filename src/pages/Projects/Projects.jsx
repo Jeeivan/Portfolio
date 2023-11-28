@@ -1,8 +1,8 @@
 import '../../css/Projects.css'
-import Physio from '../../images/physio.jpeg'
-import Fitness from '../../images/fitness.jpeg'
-import Luffy from '../../images/luffy.png'
-import Space from '../../images/space-inavders.jpeg'
+import Physio from '../../images/physio.png'
+import Fitness from '../../images/fitness.png'
+import Anime from '../../images/anime.png'
+import Space from '../../images/space.png'
 
 export default function Projects() {
   return (
@@ -10,12 +10,13 @@ export default function Projects() {
       <div className="Projects__item">
         <h1>WaitLessWellness</h1>
         <img src={Physio} alt="Physio" />
+        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, Django, Django Rest
+          Framework, PostgreSQL, React, Python, CSS, HTML</p>
         <p>
-          Created using CSS, HTML, Vanilla JavaScript ES6, Django, Django Rest
-          Framework, PostgreSQL, React, Python. Successfully built a user-friendly
+          Successfully built a user-friendly
           website that combines health information and interactive features,
           allowing users to access tailored physiotherapy guidance while awaiting
-          in-person appointments.
+          in-person appointments to reduce stress on NHS waiting lists and for better patient outcome.
         </p>
         <a
           href="https://physio-frontend-production.up.railway.app/"
@@ -29,9 +30,10 @@ export default function Projects() {
       <div className="Projects__item">
         <h1>TrackTive</h1>
         <img src={Fitness} alt="Fitness" />
+        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, MongoDB,
+          Mongoose, Node.js, Vue.js, Express, React, Next.js, CSS, HTML</p>
         <p>
-          Created using Tailwind CSS, HTML, Vanilla JavaScript ES6, MongoDB,
-          Mongoose, Node.js, Vue.js, Express, React, Next.js. Successfully
+          Successfully
           delivered a comprehensive platform tailored for gym-goers and
           health-conscious individuals.
         </p>
@@ -46,10 +48,11 @@ export default function Projects() {
 
       <div className="Projects__item">
         <h1>EverythingAnime</h1>
-        <img src={Luffy} alt="Luffy"/>
+        <img src={Anime} alt="Anime"/>
+        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, MongoDB, Mongoose,
+          Node.js, Vue.js, Express, CSS, HTML</p>
         <p>
-          Created using CSS, HTML, Vanilla JavaScript ES6, MongoDB, Mongoose,
-          Node.js, Vue.js, Express. Established a user-friendly website showcasing
+          Established a user-friendly website showcasing
           anime content and fostering community engagement with a timeframe of one
           week.
         </p>
@@ -65,8 +68,9 @@ export default function Projects() {
       <div className="Projects__item">
         <h1>Space Invaders</h1>
         <img src={Space} alt="Space Invader"/>
+        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, HTML, CSS</p>
         <p>
-          Created using Vanilla JavaScript ES6, HTML and CSS. My take on the
+          My take on the
           classic arcade game of Space Invaders. My first unit project of the
           General Assembly bootcamp. A stressful yet extremely rewarding and
           enjoyable experience where I got to put my foundation learning to the

@@ -17,7 +17,7 @@
   color: white; /* Text color for the details */
   margin: 0; /* Remove default margin to ensure a clean look */
   padding: 0 15px; /* Add some padding for better spacing */
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .footer-container a {

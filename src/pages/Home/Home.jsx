@@ -17,7 +17,7 @@ export default function Home() {
         Junior Software Engineer with a passion for technology and a strong
         foundation in full-stack development. Committed to continuous learning
         and eager to contribute to innovative projects. Let's create something
-        extraordinary!
+        extraordinary!<br />Based in London.
       </p>
     </div>
   );

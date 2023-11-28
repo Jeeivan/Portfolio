@@ -7,7 +7,6 @@ export default function About() {
       <img src={JeeivanImage} alt="Jeeivan" className="About-image"/>
       <div className="About-content">
       <h1>About</h1>
-      <h2>Hi!</h2>
       <p>
         As a former senior Physiotherapist, I embarked on a transformative
         journey driven by my passion for technology and the dynamic nature of
@@ -26,13 +25,13 @@ export default function About() {
         acquired in order to secure a full-stack role where I can leverage my
         abilities to their maximum potential.
       </p>
-      <h2>Skills</h2>
-        <ul className="skills-list">
-          <li>Front end: HTML, CSS, Tailwind, JavaScript, React, Next.js, Vue.js</li>
-          <li>Back end: Node.js, MongoDB, Mongoose, Express, Python, Django, Django Rest Framework, PostgreSQL</li>
-          <li>Soft Skills: Communication, Teamwork, Leadership, Resilience, Adaptable</li>
-          <li>Languages: English (Native), Tamil (Conversational)</li>
-        </ul>
+      <div className="skills-section">
+          <h2>Skills</h2>
+          <div className="skills-list">
+            <p><strong>Confident: </strong>JavaScript, React, Python, VScode, PostgreSQL, MongoDB, Mongoose, Express, HTML, Node.js, NPM</p>
+            <p><strong>Comfortable: </strong>Django, Django Rest Framework, Tailwind, CSS, Railway, Git, Github, Vue.js, Next.js</p>
+          </div>
+        </div>
       </div>
     </div>
   );

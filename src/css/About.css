@@ -2,7 +2,7 @@
 
 .About {
     display: flex;
-    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -17,9 +17,6 @@
     align-self: center;
   }
   
-  .About-content {
-    flex: 2;
-  }
   
   .About h1 {
     font-size: 36px;
@@ -38,12 +35,20 @@
     text-align: justify;
   }
   
+  .About-content {
+    flex: 2; /* Use flex: 1 instead of flex: 2 */
+  }
+  
+  .skills-section {
+    flex: 1; /* Add this line to make the skills section take up the whole row */
+  }
+  
   .skills-list {
     list-style-type: none;
     padding: 0;
   }
   
-  .skills-list li {
+  .skills-list p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 8px;
