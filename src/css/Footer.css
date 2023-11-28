@@ -1,14 +1,41 @@
 /* Footer.css */
 
 .footer-container {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+  background-color: #343a40; /* Dark background color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer-container p {
-    color: black;
+  color: white; /* Text color for the details */
+  margin: 0; /* Remove default margin to ensure a clean look */
+  padding: 0 15px; /* Add some padding for better spacing */
+  font-size: 20px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #61dafb; /* Link color, you can customize this */
+  margin: 0 10px; /* Add margin to separate links */
+}
+
+.footer-container a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column; /* Switch to a column layout for smaller screens */
+  }
+
+  .footer-container p {
+    font-size: 14px; /* Adjust the font size for smaller screens */
+  }
 }

@@ -1,3 +1,4 @@
+import '../../css/Interests.css'
 import Tennis from "../../images/tennis.jpeg";
 import Gaming from "../../images/gaming.JPG";
 import Naruto from "../../images/naruto.jpeg";
@@ -7,16 +8,14 @@ import Football from "../../images/football.jpeg";
 export default function Interests() {
   return (
     <div className="Interests">
-      <h1>Get to know me more!</h1>
-
       <div>
-        <h4>Guitar</h4>
+        <h4>Music</h4>
         <img src={Guitar} alt="Guitar" />
         <p>
           Since the age of 10, I've been self-taught in playing the guitar, a
           skill I continue to nurture and find joy in. One of my proudest
           moments was performing for the first time in front of a live audience
-          at a Tamil event, captivating hundreds of people.
+          at a Tamil event (as shown above), captivating hundreds of people.
         </p>
       </div>
 
@@ -49,7 +48,7 @@ export default function Interests() {
         <h4>Anime</h4>
         <img src={Naruto} alt="Anime" />
         <p>
-          Introduced to Naruto at a young age, I was captivated not only by the
+          Introduced to the popular Japanese Animated series Naruto at a young age, I was captivated not only by the
           animation but also by the intricate storytelling in anime. Since then,
           I've explored a variety of mainstream shonen anime, appreciating the
           depth and complexity they offer.
