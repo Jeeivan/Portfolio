@@ -8,9 +8,9 @@ export default function Projects() {
   return (
     <div className="Projects">
       <div className="Projects__item">
-        <h1>WaitLessWellness</h1>
+        <h1>WaitLessWellness - 1 week - Solo Project</h1>
         <img src={Physio} alt="Physio" />
-        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, Django, Django Rest
+        <p><strong>Tech Stack: </strong>Vanilla JavaScript ES6, Django, Django Rest
           Framework, PostgreSQL, React, Python, CSS, HTML</p>
         <p>
           Successfully built a user-friendly
@@ -25,17 +25,24 @@ export default function Projects() {
         >
           <button>View Project</button>
         </a>
+        <a
+          href="https://github.com/Jeeivan/Physio-frontend"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>ReadMe</button>
+        </a>
       </div>
 
       <div className="Projects__item">
-        <h1>TrackTive</h1>
+        <h1>TrackTive - 1 week - Group Project (3 people)</h1>
         <img src={Fitness} alt="Fitness" />
-        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, MongoDB,
+        <p><strong>Tech Stack: </strong>Vanilla JavaScript ES6, MongoDB,
           Mongoose, Node.js, Vue.js, Express, React, Next.js, CSS, HTML</p>
         <p>
           Successfully
           delivered a comprehensive platform tailored for gym-goers and
-          health-conscious individuals.
+          health-conscious individuals. I led the development of the home page, user profiles, and goal-setting functionalities.
         </p>
         <a
           href="https://physio-frontend-production.up.railway.app/"
@@ -44,12 +51,19 @@ export default function Projects() {
         >
           <button>View Project</button>
         </a>
+        <a
+          href="https://github.com/AdrianaIaffa/fitness-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>ReadMe</button>
+        </a>
       </div>
 
       <div className="Projects__item">
-        <h1>EverythingAnime</h1>
+        <h1>EverythingAnime - 1 week - Solo Project</h1>
         <img src={Anime} alt="Anime"/>
-        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, MongoDB, Mongoose,
+        <p><strong>Tech Stack: </strong>Vanilla JavaScript ES6, MongoDB, Mongoose,
           Node.js, Vue.js, Express, CSS, HTML</p>
         <p>
           Established a user-friendly website showcasing
@@ -63,12 +77,19 @@ export default function Projects() {
         >
           <button>View Project</button>
         </a>
+        <a
+          href="https://github.com/Jeeivan/SEI-75-U2-frontend"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>ReadMe</button>
+        </a>
       </div>
 
       <div className="Projects__item">
-        <h1>Space Invaders</h1>
+        <h1>Space Invaders - 1 week - Solo Project</h1>
         <img src={Space} alt="Space Invader"/>
-        <p><strong>Tech Stack:</strong>Vanilla JavaScript ES6, HTML, CSS</p>
+        <p><strong>Tech Stack: </strong>Vanilla JavaScript ES6, HTML, CSS</p>
         <p>
           My take on the
           classic arcade game of Space Invaders. My first unit project of the
@@ -82,6 +103,13 @@ export default function Projects() {
           rel="noreferrer"
         >
           <button>Play Game</button>
+        </a>
+        <a
+          href="https://github.com/Jeeivan/Space-Invaders-Project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>ReadMe</button>
         </a>
       </div>
     </div>

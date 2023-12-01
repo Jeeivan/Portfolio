@@ -42,3 +42,12 @@
     margin-top: 20px;
   }
   
+  @media screen and (max-width: 600px) {
+    .Home p {
+      font-size: 18px;
+    }
+
+    .Home h1 {
+      font-size: 36px;
+    }
+  }

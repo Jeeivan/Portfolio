@@ -17,7 +17,7 @@ export default function About() {
         firmly believe that the communication, leadership, and adaptive skills I
         gained through my role as a physiotherapist will seamlessly translate
         into a tech environment.
-        <br />
+        <br /><br />
         Always being eager to learn and relishing challenges that involve
         problem-solving, I knew that enrolling in General Assembly’s 3-month
         software engineering immersive program would be the perfect fit for me
@@ -30,6 +30,8 @@ export default function About() {
           <div className="skills-list">
             <p><strong>Confident: </strong>JavaScript, React, Python, VScode, PostgreSQL, MongoDB, Mongoose, Express, HTML, Node.js, NPM</p>
             <p><strong>Comfortable: </strong>Django, Django Rest Framework, Tailwind, CSS, Railway, Git, Github, Vue.js, Next.js</p>
+            <p><strong>Soft Skills: </strong>Communication, Teamwork, Leadership, Resilience, Adaptable</p>
+            <p><strong>Languages: </strong>English (Native), Tamil (Conversational)</p>
           </div>
         </div>
       </div>
