@@ -30,6 +30,7 @@ export default function About() {
           <div className="skills-list">
             <p><strong>Confident: </strong>JavaScript, React, Python, VScode, PostgreSQL, MongoDB, Mongoose, Express, HTML, Node.js, NPM</p>
             <p><strong>Comfortable: </strong>Django, Django Rest Framework, Tailwind, CSS, Railway, Git, Github, Vue.js, Next.js</p>
+            <p><strong>Dabbled With: </strong>TypeScript, AWS</p>
             <p><strong>Soft Skills: </strong>Communication, Teamwork, Leadership, Resilience, Adaptable</p>
             <p><strong>Languages: </strong>English (Native), Tamil (Conversational)</p>
           </div>
