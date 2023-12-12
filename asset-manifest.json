@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5ccf651d.css",
-    "main.js": "/portfolio/static/js/main.10bbd725.js",
+    "main.css": "/portfolio/static/css/main.426a5a2b.css",
+    "main.js": "/portfolio/static/js/main.70896e3b.js",
     "static/media/anime.png": "/portfolio/static/media/anime.52d2bb29ac9e5c4dae87.png",
     "static/media/tennis.jpeg": "/portfolio/static/media/tennis.5e84a08b0b09a4af67dc.jpeg",
     "static/media/festive.png": "/portfolio/static/media/festive.3178c9accdd2b9085eaa.png",
@@ -14,11 +14,11 @@
     "static/media/naruto.jpeg": "/portfolio/static/media/naruto.a545884bdb2fbd8c624f.jpeg",
     "static/media/football.jpeg": "/portfolio/static/media/football.279d1361d3b1a5e2765f.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.5ccf651d.css.map": "/portfolio/static/css/main.5ccf651d.css.map",
-    "main.10bbd725.js.map": "/portfolio/static/js/main.10bbd725.js.map"
+    "main.426a5a2b.css.map": "/portfolio/static/css/main.426a5a2b.css.map",
+    "main.70896e3b.js.map": "/portfolio/static/js/main.70896e3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ccf651d.css",
-    "static/js/main.10bbd725.js"
+    "static/css/main.426a5a2b.css",
+    "static/js/main.70896e3b.js"
   ]
 }
