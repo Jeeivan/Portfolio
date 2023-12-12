@@ -1,53 +1,69 @@
 /* Home.css */
 
 .Home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .Home h1 {
-    font-size: 46px;
-    margin-bottom: 20px;
-  }
-  
-  .Home-buttons {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .Home-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 18px;
-    text-decoration: none;
-    background-color: #343a40;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .Home-button:hover {
-    background-color: #555;
-  }
-  
-  .Home p {
-    font-size: 26px;
-    margin-top: 20px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .Home p {
-      font-size: 18px;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  opacity: 0; 
+  animation: fadeIn 1s ease-in-out forwards; 
+}
 
-    .Home h1 {
-      font-size: 36px;
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Home h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.Home-buttons {
+  display: flex;
+  gap: 20px;
+  opacity: 0; 
+  animation: fadeIn 1s ease-in-out forwards; 
+  animation-delay: 0.5s; 
+}
+
+.Home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #343a40;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Home-button:hover {
+  background-color: #555;
+}
+
+.Home p {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .Home p {
+    font-size: 18px;
+  }
+
+  .Home h1 {
+    font-size: 36px;
+  }
+}

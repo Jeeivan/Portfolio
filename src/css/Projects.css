@@ -8,6 +8,19 @@
   display: grid;
   gap: 20px;
   margin-bottom: 50px;
+  opacity: 0; /* Start with 0 opacity */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .Projects__item {
@@ -16,7 +29,6 @@
   border-radius: 8px;
   padding: 20px;
 }
-
 .Projects h1 {
   font-size: 24px;
   margin-bottom: 15px;
