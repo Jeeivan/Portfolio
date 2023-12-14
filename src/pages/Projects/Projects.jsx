@@ -127,14 +127,14 @@ export default function Projects() {
           rel="noreferrer"
         >
           <button>View Project</button>
-        </a>
+        </a> */}
         <a
-          href="https://github.com/AdrianaIaffa/fitness-app"
+          href="https://github.com/Jeeivan/tractive-frontend"
           target="_blank"
           rel="noreferrer"
         >
           <button>ReadMe</button>
-        </a> */}
+        </a>
       </div>
     </div>
   );

@@ -28,12 +28,13 @@
 
 .About h1 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .About h2 {
   font-size: 24px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .About-content {
@@ -43,7 +44,7 @@
 .About p {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   text-align: justify;
 }
 
@@ -65,7 +66,8 @@
 
 .skills-list p svg {
   margin-right: 30px;
-  font-size: 30px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .About-image {
@@ -76,6 +78,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 /* Media query for screens smaller than 600px */
