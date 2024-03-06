@@ -1,5 +1,5 @@
 import "../../css/About.css";
-import JeeivanImage from "../../images/jeeivan.png";
+import JeeivanImage from "../../images/jeeivan.jpg";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
