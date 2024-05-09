@@ -85,12 +85,50 @@
 @media screen and (max-width: 600px) {
   .About {
     flex-direction: column;
-    margin-bottom: 60px;
+    align-items: center;
+    padding: 10px; 
+  }
+
+  .About-content {
+    width: 100%; 
+    order: 2; 
+  }
+
+  .About h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .About h2 {
+    font-size: 20px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .About p {
+    font-size: 14px; 
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .skills-list p {
+    margin-bottom: 10px; 
+  }
+
+  .skills-list p svg {
+    margin-right: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
 
   .About-image {
     max-width: 100%;
-    margin-right: 0;
     margin-bottom: 20px;
   }
+
+
+.skill-group {
+  margin-bottom: 50px; 
 }
+}
+
